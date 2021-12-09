@@ -14,7 +14,7 @@ const greeting = {
   username: "Vinay Kumar",
   title: "Hi all, I'm Vinay",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Flutter and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -24,13 +24,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/VinayMandhaan",
+  linkedin: "https://www.linkedin.com/in/vinay-kumar-a04192173",
+  gmail: "workvinay507@gmail.com",
+  gitlab: "https://gitlab.com/VinayMandhaan",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -166,7 +163,7 @@ const workExperiences = {
       company: "Systems Limited (Visionet)",
       companylogo: require("./assets/images/systemsLogo.png"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "",
       descBullets: [
         "Front End development of E Commerce Applications on React.js using Microsoft 365 Dynamics Commerce SDK.",
       ]
@@ -176,7 +173,7 @@ const workExperiences = {
       company: "Concept Recall",
       companylogo: require("./assets/images/conceptLogo.png"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "",
       descBullets: [
         "Live Video Streaming and Live Chat Developmentfor Web and Mobile Application using Mux and Sockets.",
         "Backend Developmentfor Web and Mobile Applications using Node.js, Express.js, Sockets.io and MongoDB",
@@ -190,7 +187,7 @@ const workExperiences = {
       company: "DigitalPass (Access Group)",
       companylogo: require("./assets/images/digitalLogo.jpg"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "",
       descBullets: [
         "Developed E-Commerce Web Application on React,js with PayPal Payment Gateway",
         "Fuel Application Development on React Native",
@@ -317,7 +314,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/tomwood.jpg"),
+      image: require("./assets/images/fitness.png"),
       projectName: "Fitness Mobile App",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -332,7 +329,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/tomwood.jpg"),
+      image: require("./assets/images/barber.png"),
       projectName: "Find Your Barber",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -405,7 +402,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -448,7 +445,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -461,7 +458,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -476,7 +473,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
