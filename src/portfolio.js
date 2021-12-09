@@ -214,10 +214,14 @@ const bigProjects = {
     {
       image: require("./assets/images/dobbies.png"),
       projectName: "Dobbies",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Dobbies is a largest garden e-commerce website, the front end of this web application is developed using Microsoft Dynamics 365 SDK for Ecommerce Development, th SDK uses React.js (Typescript) for the front end.",
       footerLink: [
         {
           name: "Visit Website",
+          url: "https://www.dobbies.com/"
+        },
+        {
+          name: "NDA Web App (Code can't be shared)",
           url: "https://www.dobbies.com/"
         }
         //  you can add extra buttons here.
@@ -226,7 +230,7 @@ const bigProjects = {
     {
       image: require("./assets/images/sysposLogo.png"),
       projectName: "Syspos (Admin Panel)",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Syspos is a retail point of sale system covering all the fundamental processes involved in a retail business. The POS System was built on React.js. The backend was developed on Node.js and Socket.io for real time data",
       footerLink: [
         {
           name: "Visit Website",
@@ -241,7 +245,7 @@ const bigProjects = {
     {
       image: require("./assets/images/assemblie.png"),
       projectName: "Assemblie",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Assemblie is a live streaming web and mobile application having functionality similar to Twitch, The content creator can go live, chat with participants, create and sell subscriptions, view their transactions and much more. The web application was built on React.js,Node.js,Express.js,Socket.io and MongoDB, while the mobile was built on React Native",
       footerLink: [
         {
           name: "Visit Website",
@@ -256,7 +260,7 @@ const bigProjects = {
     {
       image: require("./assets/images/tomwood.jpg"),
       projectName: "Tom Wood Mobile Application",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Tom Wood is a famous butcher shop in the UK. The application had the functionalities to view food, place orders apply gift vouchers, delivery discounts, credit functionality, and customer-specific marketing. React Native was used for the Mobile Application Development and Node.js, Express.js, MongoDB for the backend.",
       footerLink: [
         {
           name: "Visit Application",
@@ -264,29 +268,29 @@ const bigProjects = {
         },
         {
           name: "View Code",
-          url: "http://nextu.se/"
+          url: "#"
         }
       ]
     },
-    {
-      image: require("./assets/images/tomwood.jpg"),
-      projectName: "Tom Wood Web Application",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.tomwood.shop/"
-        },
-        {
-          name: "View Code",
-          url: "http://nextu.se/"
-        }
-      ]
-    },
+    // {
+    //   image: require("./assets/images/tomwood.jpg"),
+    //   projectName: "Tom Wood Web Application",
+    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://www.tomwood.shop/"
+    //     },
+    //     {
+    //       name: "View Code",
+    //       url: "http://nextu.se/"
+    //     }
+    //   ]
+    // },
     {
       image: require("./assets/images/wheelpotential.webp"),
       projectName: "Wheel Potential",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "WheelPotential provides feedback and suggest some actions to users depending upon their mood which is detected by their heartbeat. The application is built on Flutter, the flutter camera detects the red area of a finger using the flash and calculates the Blood ratio which provides the BMP. The accuracy of the BMP is around 70%. The backend of this application was built on Node.js",
       footerLink: [
         {
           name: "Visit Application",
@@ -299,43 +303,43 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/tomwood.jpg"),
+      image: require("./assets/images/goldenwin.png"),
       projectName: "Golden Win",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Photo Competition App on React Native,the application had features like Stories, Picture View, Voting, Image Editing, Like, Views, Share etc. The authentication ofthis application was done using Firebase and the data was stored in Cloud Firestore.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "#"
         },
         {
           name: "View Code",
-          url: "http://nextu.se/"
+          url: "https://github.com/VinayMandhaan/GoldenWin"
         }
       ]
     },
     {
       image: require("./assets/images/fitness.png"),
       projectName: "Fitness Mobile App",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "The fitness application was built for a client, who had a 60 days workout plan and wanted to view the reports of each workout, such as the time taken for each workout, number of reps and sets performed etc. The app was built on React Native and the backend was developed on Node.js",
       footerLink: [
         {
           name: "Visit Application",
-          url: "http://nextu.se/"
+          url: "#"
         },
         {
           name: "View Code",
-          url: "http://nextu.se/"
+          url: "https://github.com/VinayMandhaan/FitnessApp-ReactNative"
         }
       ]
     },
     {
       image: require("./assets/images/barber.png"),
       projectName: "Find Your Barber",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "This application was built for a client in UK. Users can book barber appointments, find nearest barber, select services, pay online and the barbers can view all the employees, timings, services and bookings. They can also add offers and advertisements. The app was built on React Native and the backend was developed on Node.js",
       footerLink: [
         {
           name: "Visit Application",
-          url: "http://nextu.se/"
+          url: "#"
         },
         {
           name: "View Code",
